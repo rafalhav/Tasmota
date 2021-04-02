@@ -50,7 +50,7 @@ const uint32_t POWER_MASK = 0xffffffffUL;   // Power (Relay) full mask
 
 #ifdef ESP8266
 const uint8_t MAX_RELAYS = 16;               // Max number of relays (up to 28)
-const uint8_t MAX_INTERLOCKS = 8;           // Max number of interlock groups (up to MAX_INTERLOCKS_SET)
+const uint8_t MAX_INTERLOCKS = 6;           // Max number of interlock groups (up to MAX_INTERLOCKS_SET)
 const uint8_t MAX_SWITCHES = 8;             // Max number of switches (up to MAX_SWITCHES_SET)
 #endif  // ESP8266
 #ifdef ESP32
@@ -78,7 +78,7 @@ const uint8_t MAX_XDRV_DRIVERS = 96;        // Max number of allowed driver driv
 const uint8_t MAX_XSNS_DRIVERS = 96;        // Max number of allowed sensor drivers
 const uint8_t MAX_I2C_DRIVERS = 96;         // Max number of allowed i2c drivers
 const uint8_t MAX_SHUTTERS = 6;             // Max number of shutters
-const uint8_t MAX_SHUTTER_RELAYS = 16;       // Max number of shutter relays
+const uint8_t MAX_SHUTTER_RELAYS = 12;       // Max number of shutter relays
 const uint8_t MAX_SHUTTER_KEYS = 4;         // Max number of shutter keys or buttons
 const uint8_t MAX_PCF8574 = 4;              // Max number of PCF8574 devices
 const uint8_t MAX_RULE_SETS = 3;            // Max number of rule sets of size 512 characters
