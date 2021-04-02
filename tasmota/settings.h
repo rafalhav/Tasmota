@@ -482,7 +482,7 @@ struct {
 
   uint8_t       free_4c5[5];               // 4C5
 
-  uint8_t       ex_interlock[7];           // 4CA MAX_INTERLOCKS = MAX_RELAYS / 2 (Legacy)
+  uint8_t       ex_interlock[6];           // 4CA MAX_INTERLOCKS = MAX_RELAYS / 2 (Legacy)
 
   uint8_t       free_4ce[2];               // 4CE
 
